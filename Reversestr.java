@@ -10,7 +10,6 @@ public class Reversestr{
         if(i == str.length()){
             return;
         }
-        int k =0;
         reverseString(str, i + 1);
         System.out.print(str.charAt(i));
        
